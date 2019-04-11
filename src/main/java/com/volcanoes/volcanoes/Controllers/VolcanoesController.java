@@ -20,7 +20,7 @@ public class VolcanoesController {
     @Autowired
     public VolcanoesController(VolcanoService service) {
         this.volcanoService = service;
-        try {
+        try {dsd
             volcanoService.loadVolcanos();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
